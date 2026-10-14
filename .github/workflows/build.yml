@@ -3,6 +3,8 @@ on:
   push:
     paths: ["run.py"]
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: windows-latest
@@ -15,12 +17,11 @@ jobs:
       - run: pyinstaller --noconsole --onefile --name SYCHO run.py
       - name: Zip EXE
         shell: pwsh
-        run: Compress-Archive -Path dist/SYCHO.exe -DestinationPath SYCHO_v${{ github.run_number }}.zip
-      - name: Commit zip + manifest
+        run: Compress-Archive -Path dist/SYCHO.exe -DestinationPath SYCHO_v1.2.0.zip
+      - name: Commit zip
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add SYCHO_v*.zip
+          git add SYCHO_v1.2.0.zip
           git commit -m "Auto-build SYCHO" || echo "nothing to commit"
           git push
-
