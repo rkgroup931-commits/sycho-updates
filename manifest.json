@@ -1,6 +1,6 @@
 {
-  "version": "1.3.0",
-  "url": "https://github.com/rkgroup931-commits/sycho-updates/raw/main/SYCHO_v1.3.0.zip",
+  "version": "1.4.0",
+  "url": "https://github.com/rkgroup931-commits/sycho-updates/raw/main/SYCHO_v1.4.0.zip",
   "sha256": "",
-  "notes": "v1.3.0 - Secure vault lock + encrypted memory."
+  "notes": "v1.4.0 - Memory, Emergency Stop, Activity Log, Backup, 5 Languages, Animated Core."
 }
