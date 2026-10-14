@@ -1,6 +1,6 @@
 {
-  "version": "1.5.0",
-  "url": "https://github.com/rkgroup931-commits/sycho-updates/raw/main/SYCHO_v1.5.0.zip",
+  "version": "1.6.0",
+  "url": "https://github.com/rkgroup931-commits/sycho-updates/releases/download/v1.6.0/SYCHO_v1.6.0.zip",
   "sha256": "",
-  "notes": "v1.5.0 - iPhone Edition: Sidebar, Dashboard, Voice Input, Reminders, Weather."
+  "notes": "v1.6.0 - JARVIS Edition: Face Login, Arc Reactor, HUD, One-Step Login."
 }
