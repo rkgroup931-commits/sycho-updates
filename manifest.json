@@ -1,6 +1,8 @@
 {
-  "version": "1.7.0",
-  "url": "https://github.com/rkgroup931-commits/sycho-updates/releases/download/v1.7.0/SYCHO_v1.7.0.zip",
-  "sha256": "",
-  "notes": "v1.7.0 - JARVIS Polish: Fixed dark menus, greeting, full animations, smooth UI."
+  "version": "1.8.0",
+  "release_date": "2026-10-14",
+  "download_url": "https://github.com/YOUR-USERNAME/sycho/releases/download/v1.8.0/SYCHO-v1.8.0-win64.zip",
+  "release_notes": "SYCHO v1.8.0 — JARVIS greeting, full animations on buttons, menus and pages, dark dropdowns, version label fixed.",
+  "min_version": "1.0.0",
+  "critical": false
 }
