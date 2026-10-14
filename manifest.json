@@ -1,6 +1,6 @@
 {
-  "version": "1.6.0",
-  "url": "https://github.com/rkgroup931-commits/sycho-updates/releases/download/v1.6.0/SYCHO_v1.6.0.zip",
+  "version": "1.7.0",
+  "url": "https://github.com/rkgroup931-commits/sycho-updates/releases/download/v1.7.0/SYCHO_v1.7.0.zip",
   "sha256": "",
-  "notes": "v1.6.0 - JARVIS Edition: Face Login, Arc Reactor, HUD, One-Step Login."
+  "notes": "v1.7.0 - JARVIS Polish: Fixed dark menus, greeting, full animations, smooth UI."
 }
